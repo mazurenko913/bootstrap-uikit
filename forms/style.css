@@ -1,0 +1,18 @@
+.form-group{
+    margin-left: 50px;
+}
+
+.form-group:first-child{
+    margin-top: 50px;
+}
+
+.fileInputDescription{
+    font-family: HelveticaNeue;
+    font-size: 13px;
+    color: #818A91;
+}
+
+.label-title{
+    font-size: 18px;
+    color: #373A3C;
+}
