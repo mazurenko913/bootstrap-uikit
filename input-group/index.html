@@ -1,0 +1,176 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Landie</title>
+    <link href="../node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+
+    <script src="../node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="../node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+    <meta name="viewport" content="width=device-width,
+         initial-scale=1.0,
+         user-scalable=no,
+         minimum-scale=1.0,
+         maximum-scale=1.0">
+</head>
+
+<body>
+    <h6 class="col-12 col-md-8 col-lg-6 mt-4">Basic example</h6>
+    <div class="input-group mb-3 col-12 col-md-8 col-lg-6">
+        <div class="input-group-prepend">
+            <span class="input-group-text" id="basic-addon1">@</span>
+        </div>
+        <input type="text" class="form-control" placeholder="Username" aria-label="Username"
+            aria-describedby="basic-addon1">
+    </div>
+
+    <div class="input-group mb-3 col-12 col-md-8 col-lg-6">
+        <input type="text" class="form-control" placeholder="ztfer" aria-label="Recipient's username"
+            aria-describedby="basic-addon2">
+        <div class="input-group-append">
+            <span class="input-group-text" id="basic-addon2">@ztfer.com</span>
+        </div>
+    </div>
+
+    <p class="col-12 col-md-8 col-lg-6">Your vanity URL</p>
+    <div class="input-group mb-3 col-12 col-md-8 col-lg-6">
+        <div class="input-group-prepend">
+            <span class="input-group-text" id="basic-addon3">http://www.ztfer.com/</span>
+        </div>
+        <input type="text" class="form-control" aria-describedby="basic-addon3">
+    </div>
+
+    <div class="input-group mb-3 col-12 col-md-8 col-lg-6">
+        <div class="input-group-prepend">
+            <span class="input-group-text">$</span>
+        </div>
+        <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+        <div class="input-group-append">
+            <span class="input-group-text">.00</span>
+        </div>
+    </div>
+
+    <h6 class="col-12 col-md-8 col-lg-6 mt-4">Sizing</h6>
+    <div class="row col-12">
+        <div class="col-12 col-md-8 col-lg-6 mt-4">
+            <div class="input-group input-group-lg mb-3">
+                <div class="input-group-prepend">
+                    <span class="input-group-text" id="inputGroup-sizing-lg">@</span>
+                </div>
+                <input type="text" class="form-control" aria-label="Sizing example input" placeholder="Username">
+            </div>
+
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                    <span class="input-group-text" id="inputGroup-sizing-default">@</span>
+                </div>
+                <input type="text" class="form-control" aria-label="Sizing example input" placeholder="Username">
+            </div>
+
+            <div class="input-group input-group-sm">
+                <div class="input-group-prepend">
+                    <span class="input-group-text" id="inputGroup-sizing-sm">@</span>
+                </div>
+                <input type="text" class="form-control" aria-label="Sizing example input" placeholder="Username">
+            </div>
+        </div>
+
+        <div class="col-12 col-md-8 col-lg-6 mt-4">
+            <h6>Basic example</h6>
+            <div class="form-inline">
+                <div class="input-group input-group-sm mr-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="inputGroup-sizing-sm">@</span>
+                    </div>
+                </div>
+
+                <div class="input-group input-group-sm">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="inputGroup-sizing-sm">Middle</span>
+                    </div>
+                </div>
+
+                <div class="input-group input-group-sm">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="inputGroup-sizing-sm">Right</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <h6 class="col-12 col-md-8 col-lg-6 mt-4">Checkboxes and radio addons</h6>
+    <div class="form-inline col-12 col-md-8 col-lg-6">
+        <div class="input-group col-7 pl-0">
+            <div class="input-group-prepend">
+                <div class="input-group-text">
+                    <input type="checkbox" aria-label="Checkbox for following text input">
+                </div>
+            </div>
+            <input type="text" class="form-control" aria-label="Text input with checkbox">
+        </div>
+
+        <div class="input-group col-5 pr-0">
+            <div class="input-group-prepend">
+                <div class="input-group-text">
+                    <input type="radio" placeholder="Username">
+                </div>
+            </div>
+            <input type="text" class="form-control" aria-label="Text input with radio button">
+        </div>
+    </div>
+
+    <h6 class="mt-4 col-12 col-md-8 col-lg-6">Button addons</h6>
+    <div class="input-group mb-3 col-12 col-md-8 col-lg-6">
+        <div class="input-group-prepend">
+            <span class="input-group-text">Go!</span>
+        </div>
+        <input type="text" class="form-control" placeholder="Search for">
+    </div>
+
+    <div class="input-group mb-3 col-12 col-md-8 col-lg-6">
+        <input type="text" class="form-control" placeholder="Search for">
+        <div class="input-group-append">
+            <span class="input-group-text">Go!</span>
+        </div>
+    </div>
+
+    <h6 class="input-group mt-4 col-12 col-md-8 col-lg-6">Buttons with dropdowns</h6>
+    <div class="input-group col-12 col-md-8 col-lg-6">
+        <input type="text" class="form-control" aria-label="Text input with dropdown button">
+        <div class="input-group-append">
+            <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">Secondary</button>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Dropdown link</a>
+                <div role="separator" class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Dropdown link</a>
+            </div>
+        </div>
+    </div>
+
+    <h6 class="input-group mt-4 col-12 col-md-8 col-lg-6">Segmented buttons</h6>
+    <div class="input-group col-12 col-md-8 col-lg-6">
+        <input type="text" class="form-control" aria-label="Text input with segmented dropdown button">
+        <div class="input-group-append">
+            <button type="button" class="btn btn-outline-secondary">Secondary</button>
+            <button type="button" class="btn btn-outline-secondary dropdown-toggle dropdown-toggle-split"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <span class="sr-only">Toggle Dropdown</span>
+            </button>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Dropdown link</a>
+                <div role="separator" class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Dropdown link</a>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
