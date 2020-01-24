@@ -1,0 +1,82 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>scroolspy and tooltops</title>
+  <link href="../node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <script src="../node_modules/jquery/dist/jquery.min.js"></script>
+  <script src="../node_modules/popper.js/dist/umd/popper.min.js"></script>
+  <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="../scrollspy-tooltips/javascript.js"></script>
+
+  <meta name="viewport" content="width=device-width,
+         initial-scale=1.0,
+         user-scalable=no,
+         minimum-scale=1.0,
+         maximum-scale=1.0">
+</head>
+
+<body>
+  <div class="col-12 col-md-8 col-lg-6 mt-4">
+    <nav id="navbar-example2" class="navbar justify-content-start navbar-light bg-light">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <ul class="nav nav-pills">
+        <li class="nav-item">
+          <a class="nav-link" href="#ZTfer">@ZTfer</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#fat">@fat</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#deemo">@deemo</a>
+        </li>
+      </ul>
+    </nav>
+    <div data-spy="scroll" data-target="#navbar-example2" data-offset="0">
+      <h4 id="ZTfer">@ZTfer</h4>
+      <p>Ad leggings keytar, brunch id art party dolor labore. Pitchfork yr enim lo-fi before they sold out qui. Tumblr
+        farm-to-table bicycle rights whatever. Anim keffiyeh carles cardigan. Velit seitan mcsweeney's photo booth 3
+        wolf
+        moon irure. Cosby sweater lomo jean shorts, williamsburg hoodie minim qui you probably haven't heard of them et
+        cardigan trust fund culpa biodiesel wes anderson aesthetic. Nihil tattooed accusamus, cred irony biodiesel
+        keffiyeh artisan ullamco consequat.</p>
+      <h4 id="fat">@fat</h4>
+      <p>Ad leggings keytar, brunch id art party dolor labore. Pitchfork yr enim lo-fi before they sold out qui. Tumblr
+        farm-to-table bicycle rights whatever. Anim keffiyeh carles cardigan. Velit seitan mcsweeney's photo booth 3
+        wolf
+        moon irure. Cosby sweater lomo jean shorts, williamsburg hoodie minim qui you probably haven't heard of them et
+        cardigan trust fund culpa biodiesel wes anderson aesthetic. Nihil tattooed accusamus, cred irony biodiesel
+        keffiyeh artisan ullamco consequat.</p>
+      <h4 id="deemo">@deemo</h4>
+      <p>Ad leggings keytar, brunch id art party dolor labore. Pitchfork yr enim lo-fi before they sold out qui. Tumblr
+        farm-to-table bicycle rights whatever. Anim keffiyeh carles cardigan. Velit seitan mcsweeney's photo booth 3
+        wolf
+        moon irure. Cosby sweater lomo jean shorts, williamsburg hoodie minim qui you probably haven't heard of them et
+        cardigan trust fund culpa biodiesel wes anderson aesthetic. Nihil tattooed accusamus, cred irony biodiesel
+        keffiyeh artisan ullamco consequat.</p>
+    </div>
+
+    <div class="mb-4">
+      <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
+        Tooltip on top
+      </button>
+      <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="right"
+        title="Tooltip on right">
+        Tooltip on right
+      </button>
+      <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="bottom"
+        title="Tooltip on bottom">
+        Tooltip on bottom
+      </button>
+      <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="left"
+        title="Tooltip on left">
+        Tooltip on left
+      </button>
+    </div>
+  </div>
+</body>
+
+
+</html>
