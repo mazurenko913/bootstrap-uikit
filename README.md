@@ -32,10 +32,10 @@
 
 ## Приклад компонетів
 navs
-![navs-img](img\navs.png)
+![navs-img](img/navs.png)
 buttons
-![buttons img](img\buttons.png)
+![buttons img](img/buttons.png)
 navbar
-![navbar img](img\navbar.png)
+![navbar img](img/navbar.png)
 popovers
-![popovers img](img\popovers.png)
+![popovers img](img/popovers.png)
