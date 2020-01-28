@@ -1,41 +1,40 @@
-Приклад використання бібліотеки Bootstrap.
+Приклад використання компонентів бібліотеки Bootstrap.
 
 ## Мета проекту
-Метою проекту було вивчення та практичне примінення можливостей бібліотеки Bootstrap.
+Вивчення та практичне використання можливостей бібліотеки Bootstrap.
 
 ## Як використовувати
-Виберіть потрібно папку з компонентами в корні проекту і відкрийте там index.html
+Виберіть потрібно папку з компонентами в корні проекту і відкрийте index.html в браузері.
 
 ## Список компонентів які використовуються
-* Alerts
+* Alert
 * Breadcrumb
-* Buttons
-* Button-dropdowns
-* Cards
+* Button
+* Button dropdown
+* Card
 * Carousel
 * Code
-* Forms
-* Images
-* Input-group
-* List-group
-* Media-object
-* Navs
+* Form 
+* Image 
+* Input group
+* List group
+* Media object
+* Nav
 * Navbar
 * Paginations
-* Popovers
-* Progress
+* Popover
+* Progres
 * Reboot
-* Scroospy and tooltips
-* tables
-* typography
+* Scroospy and tooltip
+* Table
+* Typography
 * Modal
 
-## Приклад компонетів
-navs
+# Nav
 ![navs-img](img/navs.png)
-buttons
+# Button
 ![buttons img](img/buttons.png)
-navbar
+# Navbar
 ![navbar img](img/navbar.png)
-popovers
+# Popover
 ![popovers img](img/popovers.png)
