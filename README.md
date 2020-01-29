@@ -1,12 +1,12 @@
-Приклад використання компонентів бібліотеки Bootstrap.
+An example of using Bootstrap library components.
 
-## Мета проекту
-Вивчення та практичне використання можливостей бібліотеки Bootstrap.
+## The purpose of the project
+Learn and use the Bootstrap library.
 
-## Як використовувати
-Виберіть потрібно папку з компонентами в корні проекту і відкрийте index.html в браузері.
+## How to use
+Select the desired component folder at the root of the project and open index.html in the browser.
 
-## Список компонентів які використовуються
+## List of components used
 * Alert
 * Breadcrumb
 * Button
